@@ -249,6 +249,11 @@ div[data-category="seafood"] {
     border-left: 1px solid var(--category-seafood);
 }
 
+h4[data-category="seafood"] {
+    border-left: 2px solid var(--category-seafood);
+    padding-left: 10px;
+}
+
 p[data-category="seafood"],
 span[data-category="seafood"] {
     color: var(--category-seafood);
@@ -257,6 +262,11 @@ span[data-category="seafood"] {
 p[data-category="chicken"],
 span[data-category="chicken"] {
     color: var(--category-chicken);
+}
+
+h4[data-category="chicken"] {
+    border-left: 2px solid var(--category-chicken);
+    padding-left: 10px;
 }
 
 div[data-category="chicken"] {
