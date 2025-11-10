@@ -725,10 +725,14 @@ p[data-category="meats"] {
     color: var(--primary-color);
 }
 
-.content_area_body_wcontent_button {
+.content_area_body_wcontent_block button {
     background-color: var(--color-dark);
     border: 1px solid var(--background-color-light);
     border-radius: 5px;
     padding: 8px 16px;
-    font-size: 12px;
+    font-size: 17px;
+    width: 150px;
+    margin-top: 130px;
+    color: var(--color-white);
+    text-transform: uppercase;
 }
