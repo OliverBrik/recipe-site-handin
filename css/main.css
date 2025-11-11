@@ -795,3 +795,13 @@ p[data-category="meats"] {
     margin-top: 200px;
     
 }
+
+.recipeinfo {
+    grid-column: 1 / span 6;
+    display: flex;
+    gap: 180px;
+}
+
+.recipeinfotitle {
+    grid-column: 1 / span 6;
+}
