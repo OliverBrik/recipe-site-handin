@@ -769,7 +769,6 @@ p[data-category="meats"] {
     width: var(--width-full);
     height: auto;
     margin:0;
-    border-bottom: 1px solid var(--color-dark);
 }
 
 .hero-text-recipedetails {
@@ -789,4 +788,10 @@ p[data-category="meats"] {
 .hero-text-recipedetails h1 span {
     font-size: 37px;
     font-weight: 900;
+}
+
+.hero-recipedetails-picture {
+    margin-left: 700px;
+    margin-top: 200px;
+    
 }
