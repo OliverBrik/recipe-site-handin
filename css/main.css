@@ -435,7 +435,7 @@ p[data-category="meats"] {
     align-items: center;
     margin: 0 auto;
     height: 600px;
-    background-image: url("https://picsum.photos/1200/600");
+    background-image: url(../img/female-chef-preparing-dish\ 1.png);
 }
 
 .image-section_content {
