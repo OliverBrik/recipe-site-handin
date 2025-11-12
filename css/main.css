@@ -818,7 +818,18 @@ p[data-category="meats"] {
     width: 55%;
 }
 
+.instructions {
+    width: var(--width-12col);
+    display:grid;
+    height: fit-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px auto;
+    gap: var(--grid-gap);
+    margin: 0 auto;
+}
+
 .instructions-headline {
+
     height: 60px;
     color: var(--background-color-light);
     border-bottom: 1px solid var(--background-color-light);
@@ -828,4 +839,15 @@ p[data-category="meats"] {
     font-size: 37px;
     display: flex;
     justify-content: space-between;
+}
+
+.instructions-text {
+    list-style-type: decimal;
+    width: 72%;
+    color: var(--background-color-light);
+    padding-left: 50px;
+    line-height: 1.8;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
