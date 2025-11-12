@@ -843,11 +843,38 @@ p[data-category="meats"] {
 
 .instructions-text {
     list-style-type: decimal;
-    width: 72%;
+    width: 60%;
     color: var(--background-color-light);
-    padding-left: 50px;
+    padding-left: 15px;
     line-height: 1.8;
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+}
+
+.instructions-text img {
+    width: 250px;
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 900px;
+    margin-top: 350px;
+    height: auto;
+    position: absolute;
+}
+
+@media (max-width: 640px) {
+    .instructions-list img {
+        width: 120px; 
+    }
+}
+
+.instructions-text-img {
+     width: 250px;
+    max-width: 100%;
+    display: block;
+    margin-left: 900px;
+    margin-top: 0px;
+    height: auto;
+    position: absolute;
+    top: 520px;
 }
