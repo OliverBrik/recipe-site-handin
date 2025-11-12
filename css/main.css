@@ -803,5 +803,29 @@ p[data-category="meats"] {
 }
 
 .recipeinfotitle {
+    margin-top: 40px;
     grid-column: 1 / span 6;
+}
+
+.recipeinfotitle li {
+    margin: 10px;
+   
+}
+
+.recipeinfotitle ul {
+    column-count: 2;
+    column-gap: 2rem;
+    width: 55%;
+}
+
+.instructions-headline {
+    height: 60px;
+    color: var(--background-color-light);
+    border-bottom: 1px solid var(--background-color-light);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 70px 0 0;
+    font-size: 37px;
+    display: flex;
+    justify-content: space-between;
 }
