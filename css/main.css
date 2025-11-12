@@ -100,7 +100,7 @@ body,html {
 }
 
 .hero {
-    background-image: url("https://picsum.photos/1200/800");
+    background-image: url("../img/top-view-delicious-food-table 2.png");
     min-height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -802,6 +802,12 @@ p[data-category="meats"] {
     gap: 180px;
 }
 
+.recipeinfo svg {
+    vertical-align: middle;
+    margin-right: 8px;
+    color: var(--primary-color);
+}
+
 .recipeinfotitle {
     margin-top: 40px;
     grid-column: 1 / span 6;
@@ -816,6 +822,22 @@ p[data-category="meats"] {
     column-count: 2;
     column-gap: 2rem;
     width: 55%;
+}
+
+.recipeinfotitle button {
+    color: var(--color-white);
+    background-color: var(--background-color-dark);
+    border: 1px solid var(--background-color-light);
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.recipeinfotitle svg {
+    vertical-align: middle;
+    margin-right: 8px;
+    color: var(--background-color-light);
 }
 
 .instructions {
@@ -857,7 +879,7 @@ p[data-category="meats"] {
     max-width: 100%;
     display: inline-block;
     margin-left: 900px;
-    margin-top: 350px;
+    margin-top: 400px;
     height: auto;
     position: absolute;
 }
