@@ -777,6 +777,7 @@ p[data-category="meats"] {
 }
 
 .hero-text-recipedetails p {
+    margin-bottom: 20px;
     color: var(--primary-color);
 }
 
@@ -791,7 +792,7 @@ p[data-category="meats"] {
 }
 
 .hero-recipedetails-picture {
-    margin-left: 700px;
+    margin-left: 750px;
     margin-top: 200px;
     
 }
