@@ -305,6 +305,13 @@ p[data-category="meats"] {
     color: var(--category-meats);
 }
 
+div[data-category="dessert"] {
+    border-left: 1px solid var(--category-dessert);
+}
+p[data-category="dessert"] {
+    color: var(--category-dessert);
+}
+
 /* Data Category Colors end */
 
 .todays_recipes_content_bottom_area_right button {
@@ -938,7 +945,7 @@ p[data-category="meats"] {
     font-weight: 200;
 }
 
-/*  Today's Recipes section start */
+/*  This week's Recipes section start */
 
 
 .tw_recipes_content {
