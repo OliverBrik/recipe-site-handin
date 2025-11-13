@@ -901,3 +901,33 @@ p[data-category="meats"] {
     position: absolute;
     top: 520px;
 }
+
+.hero-text-thisweek {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+
+}
+
+.hero-text-thisweek h1 span {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.hero-text-thisweek h1 span {
+    font-size: 37px;
+    font-weight: 900;
+}
+
+.hero-thisweek {
+    background-image: url("../img/betterversioncloseup.png");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    display:flex;
+    width: var(--width-full);
+    height: auto;
+    margin:0;
+    border-bottom: 1px solid var(--color-dark);
+}
