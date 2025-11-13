@@ -51,7 +51,7 @@ body,html {
     width: var(--width-full);
 }
 
-.todays_recipes, .categories, .content-area {
+.todays_recipes, .categories, .content-area .thisweeks {
     width: var(--width-12col);
 }
 
@@ -930,4 +930,10 @@ p[data-category="meats"] {
     height: auto;
     margin:0;
     border-bottom: 1px solid var(--color-dark);
+}
+
+
+.todays_recipes_headline p span {
+    color: var(--primary-color);
+    font-weight: 200;
 }
