@@ -288,6 +288,21 @@ h4[data-category="chicken"] {
     padding-left: 10px;
 }
 
+p[data-category="pasta"],
+span[data-category="pasta"] {
+    color: var(--category-pasta);
+}
+
+h4[data-category="pasta"] {
+    border-left: 2px solid var(--category-pasta);
+    padding-left: 10px;
+}
+
+div[data-category="pasta"] {
+    border-left: 1px solid var(--category-pasta);
+
+}
+
 div[data-category="chicken"] {
     border-left: 1px solid var(--category-chicken);
 }
@@ -621,7 +636,7 @@ p[data-category="dessert"] {
     accent-color: var(--category-dessert);
 
 }
-.filter-category-checkbox input[type="radio"]#Pasta {
+.filter-category-checkbox input[type="radio"]#pasta {
     accent-color: var(--category-pasta);
 
 }
