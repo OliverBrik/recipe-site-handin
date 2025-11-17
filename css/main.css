@@ -1040,3 +1040,60 @@ p[data-category="dessert"] {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+
+
+@media (width < 600px)  {
+
+    :root {
+        --width-12col: 90%;
+    }
+   .todays_recipes_content {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        padding-left: 20px;
+   }
+
+   .image-section {
+    display: none;
+   }    
+
+   .content_area_body {
+    grid-template-columns: repeat(1, 1fr);
+   }
+    .tw_recipes_content {
+     grid-template-columns: repeat(1, 1fr);
+    }
+
+    .categories_content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .categories_headline_img {
+        display: none;
+    }
+
+    .recipeinfotitle ul {
+        column-count: 1;
+        width: 100%;
+    }
+
+    .instructions-text
+    {
+        width: 35%;
+    }
+
+    .recipeinfo {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .todays_recipes_headline p {
+        font-size: 25px;
+    }
+
+    .footer-box-third {
+        display: none;
+    }
+}
+
